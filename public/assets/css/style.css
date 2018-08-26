@@ -1,0 +1,46 @@
+body {
+  
+    background-size: 100%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: blue;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.articleBody {
+    height: 200px;
+    font-size: 20px;
+    overflow-y: scroll;
+    line-height: 150%;
+}
+
+#nameComment {
+    font-weight: bold;
+    background: violet;
+    color: white;
+}
+
+
+
+.input-field input[type=text]:focus+label {
+    color: rebeccapurple;
+}
+
+
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid rebeccapurple;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+
+
+.input-field .prefix.active {
+    color: rebeccapurple;
+}
